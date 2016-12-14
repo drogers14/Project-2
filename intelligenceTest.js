@@ -1,12 +1,31 @@
-function isThisDeep(){
-var deepInput = document.getElementById("deep").value;
-var profoundInput = document.getElementById("profound").value;
-if(deepInput.includes("aa")){
-  document.getElementById("deep").classList.add("has-success");
-    document.getElementById("usernameError").innerHTML="Good.";
+function deepTwo() {
+  var user2Entered = document.getElementById("user2").value;
 
+  if (user2Entered.toLowerCase() == "laughter"||
+  user2Entered.toLowerCase() ==  "laughing"){
+      window.alert("Correct. Your intelligence isnt challenged at all")
+    }
+    else{
+
+  window.alert("INCORRECT")
+    }
+  }
+
+  function deep()
+  {
+    var userEntered = document.getElementById("user").value;
+    userEntered = userEntered.toLowerCase();
+
+    if (userEntered == "chewing" || userEntered == "biting" ||
+     userEntered == "eating") {
+        window.alert("Correct. Your intelligence isn't challenged at all.")
+      }
+      else{
+
+    window.alert("INCORRECT")
+      }
 }
-}
+
 
 //courtesy of w3schools, from: http://www.w3schools.com/js/js_cookies.asp
 function setCookie(cname, cvalue, exdays) {
