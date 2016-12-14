@@ -1,0 +1,19 @@
+body{background-image:
+url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/Purple-wallpaper-8.jpg)
+}
+h1 { color: white; font-family: 'Helvetica Neue', sans-serif; font-size: 100px;
+ font-weight: bold; letter-spacing: -1px; text-align: width:40%}
+h2{color: white; font-family: 'Helvetica Neue' , sans-serif; font-size: 50px;
+font-weight: bold; letter-spacing: -1px; text-align: width:40%}
+h3{color: white; font-family: 'Helvetica Neue' , sans-serif; font-size: 30px;
+font-weight: bold; letter-spacing: -1px; text-align: width:40%}
+.hint:hover{color:#66ffb3}
+h4{color: orange; font-family: 'Helvetica Neue' , sans-serif; font-size: 25px;
+}
+a:link, a:visited {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Helvetica Neue', sans-serif;
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Intelligence Test</title>
+  <link rel="stylesheet" href="legitTest.css">
+
+    <script>
+    function deep()
+    {
+      var userEntered = document.getElementById("user").value;
+      userEntered = userEntered.toLowerCase();
+
+      if (userEntered == "chewing" || userEntered == "biting" ||
+       userEntered == "eating") {
+          window.alert("Correct. Your intelligence isn't challenged at all.");
+        }
+        else{
+
+      window.alert("INCORRECT");
+        }
+      } </script>
+</head>
+<body>
+  <center><h1>  How Intelligent Are You?</h1></center>
+  <center><p><h2>In The Land of the Deep, but Not Profound...</h2></p></center>
+
+    <h2 class="colorChange">There are <span>TEETH</span> but no</h2>
+
+<center><input type="text" id="user" placeholder=" hint: it's a verb" /></center>
+
+  <center>  <button type="button" onclick="deep();"> <!-- Run JavaScript to validate input /-->
+      Submit
+    </button></center>
+  <!--  <div style="float: right; width:30%">/-->
+        <a href="intelligenceTest2.html"><h4 style="float:right">Next Question</h4>
+      <!--  </div>/-->
+
+
+</body>
+</html>
